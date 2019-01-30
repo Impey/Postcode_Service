@@ -16,8 +16,8 @@ class MultiplePostcodeService
   @multiple_postcode_data['status']  
  end
 
- def print_response
-  p @multiple_postcode_data
+ def retrieve_query
+  @multiple_postcode_data['result'][0]['query']
  end
  
 

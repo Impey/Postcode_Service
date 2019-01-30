@@ -109,7 +109,7 @@ describe Postcodesio do
     expect(@single_postcode_service.retrieve_nuts).to be_kind_of(String)
   end
   it 'should be data type of string for codes admin district' do 
-    expect(@single_postcode_service.retrieve_codes_admin_district).to eq 'E07000069'
+    expect(@single_postcode_service.retrieve_codes_admin_district).to be_kind_of(String)
   end
 
 
